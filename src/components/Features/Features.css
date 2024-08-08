@@ -1,0 +1,17 @@
+/* FeaturesSection.css */
+
+.infinite-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: infinite-scroll 20s linear infinite;
+  }
+  
+  @keyframes infinite-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
